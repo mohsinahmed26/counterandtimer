@@ -1,0 +1,30 @@
+*{
+    background-color:black;
+}
+.justify-content-md-center{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    color:white;
+    font-family: monospace;
+}
+.heading{
+    position: relative;
+    text-align: center;
+    padding-top: 20%;
+    color:white;
+    
+}
+#min{
+    margin: 10%;
+    color:white;
+}
+#sec{
+    margin: 10%;
+    color:white;
+}
+.col-md-auto{
+    padding: 10px;
+    
+}

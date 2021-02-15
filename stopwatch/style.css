@@ -1,0 +1,39 @@
+* {
+    background-color:rgb(0, 0, 0);
+    padding: 0%;
+    margin: 0%;
+}
+.stopwatch{
+    color: white; 
+    font-size: 100px;
+    font-family: monospace;
+}
+.b1{
+    color: rgb(0, 0, 0);
+    background-color:white;
+    font-size: 20px;
+    border-radius: 4px;
+    font-style:initial;
+    padding:10px;
+    font-family:cursive;
+    border: none;
+    
+    
+    
+   
+
+}
+body{
+    justify-content: center;
+    text-align: center;
+   padding-top: 20%;
+
+}
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+.controls{
+    padding: 10px;
+    
+}

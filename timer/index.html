@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Countdown-Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="heading">
+        
+        <h1>COUNTDOWN TIMER</h1>
+   
+
+    </div>
+
+    <div class="container">
+
+            <div class="row justify-content-md-center">
+
+                <div class="col col-lg-2" style="width: 100px; font-size: 25px; margin-left: 10px; font-weight: bold;">
+          
+                    <span id="min">00</span>(m) 
+         
+                 </div>
+          
+                <div class="col col-lg-2" style="width: 100px; font-size: 25px; margin-left: 10px;font-weight: bold;">
+           
+                    <span id="sec">00</span>(s)
+            
+                </div>
+            
+            </div>    
+
+
+
+            <div class="row justify-content-md-center">
+              <div class="col-md-auto">
+    
+                <button class="btn btn-outline-danger" onclick="set()">SET</button>
+   
+               </div>
+            
+                <div class="col-md-auto">
+                 
+                    <button class="btn btn-outline-dark" id="pause" onclick="pause()">PAUSE</button>
+               
+                </div>
+    
+                <div class="col-md-auto" >
+    
+                 <button class="btn btn-outline-info" id="start" onclick="start()">START</button>
+    
+                </div>
+    
+                
+
+                <div class="col-md-auto">
+    
+                    <button class="btn btn-outline-success" onclick="reset()">RESET</button>
+       
+                   </div>
+            
+            </div>
+       
+       
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+          
+        </footer>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
